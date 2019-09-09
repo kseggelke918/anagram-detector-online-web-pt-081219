@@ -12,7 +12,6 @@ class Anagram
     anagram_array.each do |anagram_word|
       letters_array = anagram_word.split("").sort 
         if letters_array == word.split("").sort 
-          #binding.pry
           matched_words_array << anagram_word 
         end 
        return matched_words_array
