@@ -3,8 +3,6 @@ require "pry"
 class Anagram
   attr_accessor :word 
   
-  
-  
   def initialize(word)
     @word = word 
   end 
@@ -18,16 +16,8 @@ class Anagram
           matched_words_array << anagram_word 
         end 
        return matched_words_array
-       
     end 
     
   end 
-  
-  
-  
-  
-  
-  
-  
   
 end 
