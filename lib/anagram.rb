@@ -11,7 +11,7 @@ class Anagram
   
   def match(anagram_array) 
     anagram_array.each do |word|
-      word.split("")
+      letters_array = word.split("").sort 
       binding.pry 
     end 
     
