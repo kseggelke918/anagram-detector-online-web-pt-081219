@@ -17,7 +17,7 @@ class Anagram
           matched_words_array << word 
         end 
        return matched_words_array
-       #binding.pry
+       binding.pry
     end 
     
   end 
