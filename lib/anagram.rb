@@ -16,6 +16,7 @@ class Anagram
         if letters_array == word.split("").sort 
           matched_words_array << letters_array
         end 
+       matched_words_array
        #binding.pry
     end 
     
