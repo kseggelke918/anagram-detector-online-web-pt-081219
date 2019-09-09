@@ -14,9 +14,8 @@ class Anagram
         if letters_array == word.split("").sort 
           matched_words_array << anagram_word 
         end 
-       return matched_words_array
     end 
-    
+    return matched_words_array
   end 
   
 end 
